@@ -10,23 +10,13 @@ const app = express()
 
 const session_time = 1000 * 60 * 60 * 24 * 1;
 
-// var firebaseConfig = {
-//   apiKey: "AIzaSyDD6ZpbrX17ySGVrH8w0wYDqvGyMXYnPlo",
-//   authDomain: "kritika-a12ae.firebaseapp.com",
-//   projectId: "kritika-a12ae",
-//   storageBucket: "kritika-a12ae.appspot.com",
-//   messagingSenderId: "1074719455050",
-//   appId: "1:1074719455050:web:42703119681390e56033b3",
-//   measurementId: "G-T7X5WRL1GS"
-// };
 const firebaseConfig = {
-  apiKey: "AIzaSyAfGWoUlOwoP5PHuRy4FP9Ic1w1YxY2uFA",
-  authDomain: "saenitkkrforms.firebaseapp.com",
-  projectId: "saenitkkrforms",
-  storageBucket: "saenitkkrforms.appspot.com",
-  messagingSenderId: "248727434698",
-  appId: "1:248727434698:web:0f5498ae740f9ff9738b33",
-  measurementId: "G-PXQ86P5ZPQ"
+  apiKey: "AIzaSyCWfHTsaNxXFlbyTSnGV8vuyb7Ar-WyT1M",
+  authDomain: "form-generator-ab5b5.firebaseapp.com",
+  projectId: "form-generator-ab5b5",
+  storageBucket: "form-generator-ab5b5.appspot.com",
+  messagingSenderId: "1013551816709",
+  appId: "1:1013551816709:web:edeb18fed25dedcfc3bc6c"
 };
 const port = process.env.PORT || 5000;
 
